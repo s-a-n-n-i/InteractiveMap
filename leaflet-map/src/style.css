@@ -1,0 +1,27 @@
+html,
+body,
+#map {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.cluster-icon {
+  height: 2rem;
+  width: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  background-color: #3D86E6;
+
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(61, 134, 230, 0.5);
+
+  transform: translate(-50%, -50%);
+
+}
